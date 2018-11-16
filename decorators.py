@@ -7,7 +7,7 @@ of a function, method or class without having to
 directly use subclasses.
 """
 
-# a bacic solution
+# a basic case
 def foo(a, b):
     return a + b
 
