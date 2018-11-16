@@ -7,6 +7,7 @@ of a function, method or class without having to
 directly use subclasses.
 """
 
+
 # a basic case
 def foo(a, b):
     return a + b
@@ -31,7 +32,9 @@ def timer(func):
         after = time()
         print("elapsed: ", after - before)
         return rv
+
     return f
+
 
 @timer
 def add(a, b):
