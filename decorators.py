@@ -25,7 +25,7 @@ print("elapsed:", after - before)
 
 # a wise solution using decorators
 def timer(func):
-    def f(*args, **kwargs):
+    def f(*args, **kwargs):  # will work for any default function
         before = time()
         rv = func(*args, **kwargs)
         after = time()
